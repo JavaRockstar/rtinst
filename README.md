@@ -10,7 +10,7 @@ Download and run setup (if logged in directly as root, do not need to use sudo)
 
 	sudo bash -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/arakasi72/rtinst/master/rtsetup)"
 
-and then to run the main script, ([check the options you can use](https://github.com/arakasi72/rtinst/wiki/Guide#21-main-script-options)):
+and then to run the main script, ([check the options you can use](https://github.com/JavaRockstar/rtinst/wiki/Guide#21-main-script-options)):
 
 	sudo rtinst
 
